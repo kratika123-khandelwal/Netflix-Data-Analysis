@@ -4,7 +4,7 @@
 
 This project focuses on analyzing the Netflix dataset to uncover meaningful insights about movies and TV shows available on the platform. The analysis is performed using Python and various data science libraries to understand trends, patterns, and user preferences.
 
-Netflix leverages data to improve user experience, recommend content, and optimize decisions, making data analysis a crucial part of its ecosystem ([GeeksforGeeks][1]).
+Netflix leverages data to improve user experience, recommend content, and optimize decisions, making data analysis a crucial part of its ecosystem.
 
 ---
 
@@ -13,8 +13,6 @@ Netflix leverages data to improve user experience, recommend content, and optimi
 * Perform data cleaning and preprocessing
 * Analyze distribution of Movies vs TV Shows
 * Identify top genres and categories
-* Analyze content production over the years
-* Explore country-wise content distribution
 * Generate insights using visualizations
 
 ---
@@ -35,9 +33,7 @@ Netflix leverages data to improve user experience, recommend content, and optimi
 * Contains information such as:
 
   * Title
-  * Type (Movie/TV Show)
-  * Director
-  * Country
+  * Type (Movie)
   * Release Year
   * Rating
   * Duration
@@ -58,35 +54,24 @@ Netflix leverages data to improve user experience, recommend content, and optimi
 
 The following analyses were performed:
 
-* Movies vs TV Shows distribution
-* Content added over the years
-* Top countries producing content
-* Most common genres
+* Movies distribution
+* Most popular genres
 * Ratings distribution
 * Duration analysis
 
-EDA helps in discovering patterns, trends, and insights from raw data ([netflix-data-analysis.vercel.app][2]).
+EDA helps in discovering patterns, trends, and insights from raw data 
 
----
+
 
 ## 📈 Key Insights
 
-* Majority of content on Netflix is Movies
-* Significant growth in content after 2015
-* USA is the leading content producer
-* TV Shows are increasing rapidly over time
-* Drama and International content are highly popular
+* The most frequent genre 
+* Genres that has highest votes
+* Movie that got the highest popularity
+* Year that has the most filmmed movies
+* Movie that got the lowest popularity
 
----
 
-## 📷 Visualizations
-
-* Bar charts
-* Count plots
-* Heatmaps
-* Time-series plots
-
----
 
 ## 🚀 Conclusion
 
@@ -104,9 +89,5 @@ The analysis provides valuable insights into Netflix’s content strategy and tr
 
 ## 🙌 Author
 
-**Your Name**
+Kratika Khandelwal
 
----
-
-[1]: https://www.geeksforgeeks.org/data-science/how-netflix-uses-data-science/?utm_source=chatgpt.com "How Netflix Uses Data Science? - GeeksforGeeks"
-[2]: https://netflix-data-analysis.vercel.app/?utm_source=chatgpt.com "Netflix Data Analysis"
